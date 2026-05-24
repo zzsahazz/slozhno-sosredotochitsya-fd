@@ -9,4 +9,31 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --text-color: #353430;
+  --text-accent-color: #353430;
+
+  --text-title-color: #353430;
+
+  --bg-color: #FFF1F7;
+  --bg-accent-color: #ff8dcb;
+  --shadow-color: #FFC2E6;
+
+  --accent-shadow-color: #FF8DCB;
+
+  --decor-color: #353430;
+
+
+  --text-shadow-accent: 2px 2px 0 var(--accent-shadow-color,#FF8DCB);
+
+  --decor-border-color: 1px solid var(--decor-color, #353430);
+
+
+  --cover-image: url(../images/cover-image-light.png);
+}
+
+@container style(--bg-color: #FFF1F7){
+  .decorative-text{
+    display: none;/*  заменить на   background-image  */
+  }
 }

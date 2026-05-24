@@ -1,0 +1,38 @@
+.footer{
+  display: grid;
+  min-height: 668px;
+  padding: 10px;
+  background-color: var(--bg-color,#000028);
+}
+
+.footer__title{
+  justify-self: center;
+  align-self: center;
+  color: var(--shadow-color,#DB00FF);
+  font-weight: bold;
+  font-size: var(--header-title-size-mobile);
+  line-height: 0.83;
+  text-shadow: 2px 2px 0 var(--bg-accent-color);
+}
+
+@media(width >= 768px){
+
+  .footer{
+    min-height: 1024px;
+  }
+
+  .footer__title{
+    font-size: var(--header-title-size-desktop);
+  }
+}
+
+@media(width >= 1024px){
+
+  .footer{
+    min-height: 768px;
+  }
+
+  .footer__title{
+    font-size: var(--header-title-size-desktop); 
+  }
+}
