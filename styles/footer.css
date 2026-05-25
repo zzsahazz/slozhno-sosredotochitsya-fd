@@ -8,7 +8,7 @@
 .footer__title{
   justify-self: center;
   align-self: center;
-  color: var(--shadow-color,#DB00FF);
+  color: var(--shadow-color,#db00ff);
   font-weight: bold;
   font-size: var(--header-title-size-mobile);
   line-height: 0.83;
@@ -16,7 +16,6 @@
 }
 
 @media(width >= 768px){
-
   .footer{
     min-height: 1024px;
   }
@@ -27,7 +26,6 @@
 }
 
 @media(width >= 1024px){
-
   .footer{
     min-height: 768px;
   }

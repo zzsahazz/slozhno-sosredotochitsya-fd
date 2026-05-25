@@ -14,17 +14,17 @@
 
   --main-font-family: "IBM Plex mono", monospace;
 
-  --text-color: #F1B2CE;
-  --text-accent-color: #FF0070;
+  --text-color: #f1b2ce;
+  --text-accent-color: #ff0070;
   --text-title-color: #000028;
 
   --bg-color: #000028;
-  --bg-accent-color: #FF0070;
-  --shadow-color: #DB00FF;
+  --bg-accent-color: #ff0070;
+  --shadow-color: #db00ff;
 
-  --text-shadow-accent: 2px 2px 0 var(--text-accent-color, #FF0070);
+  --text-shadow-accent: 2px 2px 0 var(--text-accent-color, #ff0070);
 
-  --decor-border-color:1px solid var(--bg-accent-color, #FF0070);
+  --decor-border-color:1px solid var(--bg-accent-color, #ff0070);
 
   --decor-hover-color: 1px solid rgb(255 0 112 / 0.4);
 

@@ -68,7 +68,7 @@
 .header__theme-menu-button{
   border: 1px solid transparent;
   padding: 2px 13px;
-  color: var(--text-accent-color, #FF0070);
+  color: var(--text-accent-color, #ff0070);
   font-size: var(--main-font-size, 1.125rem);
   line-height: 1;
   background-color: transparent;
@@ -98,7 +98,7 @@
   font-weight: 700;
   font-size: var(--header-title-size-mobile);
   line-height: 0.825;
-  text-shadow: 4px 4px 0px var(--bg-accent-color, #FF0070);
+  text-shadow: 4px 4px 0px var(--bg-accent-color, #ff0070);
 }
 
 .header__description{
