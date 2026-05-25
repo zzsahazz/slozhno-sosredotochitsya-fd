@@ -26,5 +26,7 @@
 
   --decor-border-color:1px solid var(--bg-accent-color, #FF0070);
 
+  --decor-hover-color: 1px solid rgb(255 0 112 / 0.4);
+
   --cover-image: url(../images/cover-image-dark.png);
 }

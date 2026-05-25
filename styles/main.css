@@ -2,7 +2,6 @@
   display: grid;
   gap: 50px;
   padding: 40px 10px;
-  background-color: var(--bg-color,#000028);
 }
 
 .section__title{

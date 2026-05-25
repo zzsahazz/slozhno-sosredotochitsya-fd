@@ -1,8 +1,8 @@
 .footer{
   display: grid;
-  min-height: 668px;
+  max-height: 668px;
+  height: 100vh;
   padding: 10px;
-  background-color: var(--bg-color,#000028);
 }
 
 .footer__title{
