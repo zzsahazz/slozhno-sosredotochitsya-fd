@@ -1,6 +1,6 @@
 .footer{
   display: grid;
-  max-height: 668px;
+  min-height: 668px;
   height: 100vh;
   padding: 10px;
 }

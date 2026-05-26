@@ -9,7 +9,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-
   --text-color: #353430;
   --text-accent-color: #353430;
   --text-title-color: #353430;
@@ -22,16 +21,21 @@
 
   --decor-color: #353430;
 
-  --text-shadow-accent: 2px 2px 0
-    var(--accent-shadow-color, #ff8dcb);
+  --text-shadow-accent:
+    2px 2px 0 var(--accent-shadow-color, #ff8dcb);
 
-  --decor-border-color: 1px solid
-    var(--decor-color, #353430);
+  --decor-border-color:
+    1px solid var(--decor-color, #353430);
 
-  --decor-hover-color: 1px solid rgba(50, 49, 45, 0.4);
+  --decor-hover-color:
+    1px solid rgba(50, 49, 45, 0.4);
 
-    
-  --cover-image: url(../images/cover-image-light.png);
+  --cover-image:
+    url(../images/cover-image-light.png);
+}
+
+.theme-light .decorative-text {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -49,18 +53,20 @@
 
     --decor-color: #353430;
 
-    --text-shadow-accent: 2px 2px 0
-      var(--accent-shadow-color, #ff8dcb);
+    --text-shadow-accent:
+      2px 2px 0 var(--accent-shadow-color, #ff8dcb);
 
-    --decor-border-color: 1px solid
-      var(--decor-color, #353430);
+    --decor-border-color:
+      1px solid var(--decor-color, #353430);
 
-    --decor-hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --decor-hover-color:
+      1px solid rgba(50, 49, 45, 0.4);
 
-    --cover-image: url(../images/cover-image-light.png);
+    --cover-image:
+      url(../images/cover-image-light.png);
   }
-}
 
-.theme-light .decorative-text {
-  display: none;
+  :root:not(.theme-dark) .decorative-text {
+    display: none;
+  }
 }
